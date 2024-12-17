@@ -7,6 +7,7 @@ import Testimonial from "../../Componets/Testimonial";
 import About from "../../Componets/About";
 import MapComponent from "../../Componets/MapComponent";
 import VideoComponent from "../../Componets/VideoComponent";
+import Contact from "../../Componets/Contact";
 import WhatsAppButton from "../../Componets/WhatsAppButton";
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <VideoComponent></VideoComponent>
       <Testimonial></Testimonial>
       <Faq></Faq>
+      <Contact></Contact>
       <Discount></Discount>
     </div>
   );
