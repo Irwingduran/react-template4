@@ -5,13 +5,9 @@ const ServiceDetails = () => {
   return (
     <div className="w-full bg-gray-50">
       {/* Hero Section */}
-      <div className="relative h-[400px] w-full overflow-hidden">
-        <img 
-          src="/api/placeholder/1200/400" 
-          alt="Cirugía laparoscópica" 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#020043]/80 to-transparent flex items-center">
+      <div className="relative h-[400px] bg-[#020043] w-full overflow-hidden">
+        
+        <div className="absolute inset-0 bg- flex items-center">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-2xl text-white">
               <h1 className="text-4xl lg:text-5xl font-bold mb-4">
@@ -43,7 +39,7 @@ const ServiceDetails = () => {
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
               src="/api/placeholder/600/400" 
-              alt="Procedimiento de manga gástrica" 
+              alt="Aquí va imagen del servcio o similar" 
               className="w-full h-full object-cover"
             />
           </div>
