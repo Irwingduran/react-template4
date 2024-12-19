@@ -2,6 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 import advancedTech from "../../public/Media/Rectangle 27.jpg";
 import onlineDoctor from "../../public/Media/Rectangle 27.jpg";
 import consultancy from "../../public/Media/Rectangle 27.jpg";
+import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -21,7 +22,8 @@ const Service = () => {
        
       </div>
       {/* col span-2 */}
-      <a href="/Service">
+      <Link href="/Service">
+      <a>
       <div className="relative">
         <div>
           <img
@@ -43,6 +45,7 @@ const Service = () => {
         </div>
       </div>
       </a>
+      </Link>
       {/* col span- 3 */}
       <a href="/Service">
       <div className=" relative">
