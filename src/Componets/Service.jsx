@@ -20,7 +20,8 @@ const Service = () => {
        
       </div>
       {/* col span-2 */}
-      <div className=" relative">
+      <a href="/Service">
+      <div className="relative">
         <div>
           <img
             className="w-full h-full opacity-90 rounded-3xl"
@@ -40,7 +41,9 @@ const Service = () => {
           </div>
         </div>
       </div>
+      </a>
       {/* col span- 3 */}
+      <a href="/Service">
       <div className=" relative">
         <div>
           <img
@@ -62,8 +65,10 @@ const Service = () => {
           </div>
         </div>
       </div>
+      </a>
       {/* col span 4 */}
-      <div className=" relative">
+      <a href="/Service">
+      <div className="relative">
         <div>
           <img
             className="w-full h-full opacity-90 rounded-3xl"
@@ -83,6 +88,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+      </a>
     </div>
   );
 };
