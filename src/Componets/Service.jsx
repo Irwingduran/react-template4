@@ -22,8 +22,7 @@ const Service = () => {
        
       </div>
       {/* col span-2 */}
-      <Link href="/Service">
-      <a>
+       <a href="/Service">
       <div className="relative">
         <div>
           <img
@@ -45,7 +44,7 @@ const Service = () => {
         </div>
       </div>
       </a>
-      </Link>
+    
       {/* col span- 3 */}
       <a href="/Service">
       <div className=" relative">
