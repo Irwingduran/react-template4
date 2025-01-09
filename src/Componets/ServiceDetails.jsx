@@ -13,8 +13,8 @@ const ServiceDetails = () => {
               <h1 className="text-4xl lg:text-5xl font-bold mb-4">
                 Manga Gástrica Laparoscópica
               </h1>
-              <p className="text-xl lg:text-2xl">
-                Una solución efectiva y segura para el tratamiento de la obesidad
+              <p className="text-1xl lg:text-1xl">
+                Procedimiento restrictivo metabólico para combatir el problema de la obesidad que se realiza por vía laparoscópica.
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const ServiceDetails = () => {
           </div>
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img 
-              src="/api/placeholder/600/400" 
+              src="/Media/service1.jpeg" 
               alt="Aquí va imagen del servcio o similar" 
               className="w-full h-full object-cover"
             />

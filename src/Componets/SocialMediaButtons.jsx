@@ -6,7 +6,7 @@ const SocialMediaButtons = () => {
   const socialLinks = [
     {
       name: 'WhatsApp',
-      url: 'https://api.whatsapp.com/send/?phone=5212221843622&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0',
+      url: 'https://wa.me/5212221843622?text=Hola%20Dr.%20encontr%C3%A9%20su%20perfil%20en%20findoctor%20y%20me%20gustar%C3%ADa%20realizar%20una%20consulta',
       bgColor: 'bg-green-500',
       hoverColor: 'hover:bg-green-600',
       icon: (
@@ -15,7 +15,7 @@ const SocialMediaButtons = () => {
     },
     {
         name: 'Instagram',
-        url: 'https://www.instagram.com/endoscopiaentoluca/?igshid=YmMyMTA2M2Y%3D',
+        url: 'https://www.instagram.com/drespinosabariatra?igshid=YTQwZjQ0NmI0OA%3D%3D',
         bgColor: 'bg-pink-500',
         hoverColor: 'hover:bg-pink-600',
         icon: (
@@ -24,7 +24,7 @@ const SocialMediaButtons = () => {
     },
     {
       name: 'Facebook',
-      url: 'https://www.facebook.com/EndoscopiaenToluca',
+      url: 'https://www.facebook.com/bariatrapue?mibextid=ZbWKwL',
       bgColor: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700',
       icon: (
@@ -33,7 +33,7 @@ const SocialMediaButtons = () => {
     },
     {
       name: 'TikTok',
-      url: 'https://www.tiktok.com/@omar.gastro?_t=8k4h6MdrJ70&_r=1',
+      url: 'https://www.tiktok.com/@drespinosabariatra?_t=8naCuDgx1Bl&_r=1',
       bgColor: 'bg-gray-800',
       hoverColor: 'hover:bg-gray-900',
       icon: (

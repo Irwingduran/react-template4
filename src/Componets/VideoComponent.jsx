@@ -7,7 +7,7 @@ const VideoComponent = () => {
         Youtube
       </h3>
       <h1 className="text-2xl sm:text-3xl lg:text-5xl text-[#020043] font-bold text-center sm:text-left my-4 sm:my-6">
-        ¿Qué hace un cirujano Bariátra?
+        Aprende un poco más...
       </h1>
       <div className="flex justify-center items-center">
         <div className="w-full max-w-4xl">

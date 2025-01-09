@@ -4,12 +4,10 @@ const Footer = () => {
     <footer className="px-4 divide-y bg-[#020043] dark:text-white mt-14 lg:py-20">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0 ml-0 md:ml-36 lg:ml-64">
         <div className="lg:w-[20%]">
-          <a rel="noopener noreferrer">
+          <a rel="noopener noreferrer" href="/">
           <h1 className="text-4xl">Dr Omar Espinosa Gonzalez</h1>
             <p className="text-lg text-[#C6C6C6] lg:-ml-10 mt-4 font-barlow">
-              Dirección 1 / Dirección 2, México
-              <p>Código Postal: 12345</p>
-              <p className="mt-2"><a href="mailto:drespinosa.cirugia@gmail.com">drespinosa.cirugia@gmail.com</a></p>
+              <p className="mt-2">Servicios de alta calidad y atención personalizada</p>
 
             </p>
           </a>
@@ -21,7 +19,7 @@ const Footer = () => {
                 <a
                   className="flex items-center gap-2"
                   rel="noopener noreferrer"
-                  href=""
+                  href="/"
                 >
                   Inicio
                 </a>
@@ -30,7 +28,7 @@ const Footer = () => {
                 <a
                   className="flex items-center gap-2"
                   rel="noopener noreferrer"
-                  href="#"
+                  href="/#about"
                 >
                   Conóceme
                 </a>
@@ -39,7 +37,7 @@ const Footer = () => {
                 <a
                   className="flex items-center gap-2"
                   rel="noopener noreferrer"
-                  href="#"
+                  href="/#service"
                 >
                  Servicio
                 </a>
@@ -50,17 +48,12 @@ const Footer = () => {
           <div className="space-y-3 lg:ml-20">
             <ul className="space-y-1 text-lg text-[#C6C6C6]">
               <li>
-                <a rel="noopener noreferrer" href="">
+                <a rel="noopener noreferrer" href="https://wa.me/5212221843622?text=Hola%20Dr.%20encontr%C3%A9%20su%20perfil%20en%20findoctor%20y%20me%20gustar%C3%ADa%20realizar%20una%20consulta">
                   Agendar Cita
                 </a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="">
-                  Contacto
-                </a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="">
+                <a rel="noopener noreferrer" href="https://maps.app.goo.gl/BVu57wNRpgDragLt6">
                   Ubicación
                 </a>
               </li>

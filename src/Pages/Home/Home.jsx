@@ -11,15 +11,23 @@ import Contact from "../../Componets/Contact";
 const Home = () => {
   return (
     <div>
+      <div id="home">
       <Banner></Banner>
+      </div>
       <CareSection></CareSection>
+      <div id="about">
       <About></About>
+      </div>
+      <div id="service">  
       <Service></Service>
+      </div>
       <MapComponent></MapComponent>
       <VideoComponent></VideoComponent>
       <Testimonial></Testimonial>
       <Faq></Faq>
+      <div id="contact">
       <Contact></Contact>
+      </div>
       <Discount></Discount>
     </div>
   );

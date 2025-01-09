@@ -13,7 +13,7 @@ const MapComponent = () => {
         <div className="w-full max-w-4xl">
           <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3771.7568359803445!2d-98.23113522479579!3d19.03043378216481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAxJzQ5LjYiTiA5OMKwMTMnNDIuOCJX!5e0!3m2!1ses!2smx!4v1734424862223!5m2!1ses!2smx"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3771.7568359803445!2d-98.23113522479579!3d19.03043378216481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAxJzQ5LjYiTiA5OMKwMTMnNDIuOCJX!5e0!3m2!1ses!2smx!4v1736439626261!5m2!1ses!2smx"
               className="absolute top-0 left-0 w-full h-full border-0"
               allowFullScreen
               loading="lazy"

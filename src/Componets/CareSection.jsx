@@ -14,7 +14,7 @@ const CareSection = () => {
       </div>
 
       <div className="shadow-xl p-3 lg:p-6 rounded-3xl lg:space-y-4 lg:col-start-1 lg:col-end-3 border lg:row-start-1 lg:row-end-12">
-        <h1 className="text-2xl lg:text-5xl font-bold text-[#020043]">900</h1>
+        <h1 className="text-2xl lg:text-5xl font-bold text-[#020043]">2,000</h1>
         <p className="text-[#020043]">
           Total de <br /> cirugías <br /> realizadas.
         </p>
@@ -42,7 +42,7 @@ const CareSection = () => {
         </div>
       </div>
       <div className="bg-[#FFFFF5] shadow-xl rounded-3xl border lg:row-start-6 lg:row-end-12 p-5 lg:col-start-7 lg:col-end-9">
-        <h1 className="text-2xl lg:text-4xl font-bold text-[#020043]">+5000</h1>
+        <h1 className="text-2xl lg:text-4xl font-bold text-[#020043]">+15,000</h1>
         <p className="text-[#020043]">
           Consultas
         </p>

@@ -8,7 +8,7 @@ const Faq = () => {
           Preguntas Frecuentes 
         </h3>
         <h1 className="text-2xl lg:text-5xl text-[#020043] font-bold text-center lg:text-start">
-         Lorem ipsum dolor sit amet consectetur adipisicing 
+         Preguntas comunes en mis pacientes...
         </h1>
       </div>
                    {/* question and answer part  */}
@@ -16,11 +16,11 @@ const Faq = () => {
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-[#020043]">
           {" "}
-          ¿Pregunta frecuente?
+          ¿Qué es la cirugía laparoscópica?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi obcaecati doloremque natus animi! Reprehenderit, consequatur suscipit et voluptate pariatur inventore sunt dolorum in molestiae enim velit. Tempore, quas odit. Vel!
+          Es una técnica quirúrgica mínimamente invasiva que utiliza pequeñas incisiones, una cámara y herramientas especiales para realizar procedimientos sin abrir completamente el abdomen.
           </p>
         </div>
       </div>
@@ -28,11 +28,11 @@ const Faq = () => {
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-[#020043]">
           {" "}
-          ¿Pregunta frecuente?
+          ¿Cuáles son los beneficios de la cirugía bariátrica?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi obcaecati doloremque natus animi! Reprehenderit, consequatur suscipit et voluptate pariatur inventore sunt dolorum in molestiae enim velit. Tempore, quas odit. Vel!
+          Ayuda a perder peso de forma significativa, mejora o resuelve enfermedades relacionadas como diabetes tipo 2, hipertensión y apnea del sueño.
           </p>
         </div>
       </div>
@@ -40,11 +40,11 @@ const Faq = () => {
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-[#020043]">
           {" "}
-          ¿Pregunta frecuente?
+          ¿Cuánto tiempo dura la recuperación de una cirugía laparoscópica?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi obcaecati doloremque natus animi! Reprehenderit, consequatur suscipit et voluptate pariatur inventore sunt dolorum in molestiae enim velit. Tempore, quas odit. Vel!
+          Generalmente, entre 1 y 4 semanas, dependiendo del procedimiento y del paciente.
           </p>
         </div>
       </div>
@@ -52,11 +52,11 @@ const Faq = () => {
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-[#020043]">
           {" "}
-          ¿Pregunta frecuente?
+          ¿Qué criterios debo cumplir para ser candidato a una cirugía bariátrica?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi obcaecati doloremque natus animi! Reprehenderit, consequatur suscipit et voluptate pariatur inventore sunt dolorum in molestiae enim velit. Tempore, quas odit. Vel!
+          Tener un IMC mayor a 40, o mayor a 35 con enfermedades asociadas como diabetes, y haber intentado otros métodos de pérdida de peso sin éxito.
           </p>
         </div>
       </div>
@@ -64,11 +64,11 @@ const Faq = () => {
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-[#020043]">
           {" "}
-          ¿Pregunta frecuente?
+          ¿La cirugía laparoscópica deja cicatrices?
         </div>
         <div className="collapse-content">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi obcaecati doloremque natus animi! Reprehenderit, consequatur suscipit et voluptate pariatur inventore sunt dolorum in molestiae enim velit. Tempore, quas odit. Vel!
+          Sí, pero son mínimas y suelen ser pequeñas marcas que con el tiempo se vuelven casi imperceptibles.
           </p>
         </div>
       </div>
