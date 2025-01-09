@@ -8,6 +8,7 @@ import About from "../../Componets/About";
 import MapComponent from "../../Componets/MapComponent";
 import VideoComponent from "../../Componets/VideoComponent";
 import Contact from "../../Componets/Contact";
+import Partners from "../../Componets/Partners";
 const Home = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const Home = () => {
       <Contact></Contact>
       </div>
       <Discount></Discount>
+      <Partners></Partners>
     </div>
   );
 };
