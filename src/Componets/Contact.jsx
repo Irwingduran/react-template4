@@ -14,7 +14,8 @@ const Contact = () => {
 
       {/* Información de contacto */}
       <div className="text-center mb-12">
-        <p className="text-lg text-gray-700">Teléfonos: <span className="font-semibold">2221843622 / 2221241865</span></p>
+        <p className="text-lg text-gray-700">Teléfonos: <span className="font-semibold">
+          <a href="tel:2221843622">2221843622 / </a> <a href="tel:2221241865">2221241865</a></span></p>
         <p className="text-lg text-gray-700">Correo: <span className="font-semibold">drespinosa.cirugia@gmail.com</span></p>
         <p className="text-lg text-gray-700">Horario: <span className="font-semibold">Martes y Jueves: 10AM a 2PM y 4PM a 8PM / Sábados: 11:30AM a 2PM</span></p>
       </div>

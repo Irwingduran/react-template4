@@ -20,6 +20,7 @@ const MapComponent = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+          <h2 className="text-center">Hospital Puebla. Priv. de las Ramblas 4, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72197 Heroica Puebla de Zaragoza, Pue.</h2>
         </div>
       </div>
     </div>

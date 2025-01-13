@@ -19,12 +19,12 @@ const Discount = () => {
           Hospital Puebla. Priv. de las Ramblas 4, Reserva Territorial Atlixcáyotl, Corredor Comercial Desarrollo Atlixcayotl, 72197 Heroica Puebla de Zaragoza, Pue.
           </h3>
           <div className="space-x-3 md:space-x-6">
-            <a href="https://wa.me/5212221843622?text=Hola%20Dr.%20encontr%C3%A9%20su%20perfil%20en%20findoctor%20y%20me%20gustar%C3%ADa%20realizar%20una%20consulta">
+            <a href="https://wa.me/5212221843622?text=Hola%20Dr.%20encontr%C3%A9%20su%20perfil%20en%20findoctor%20y%20me%20gustar%C3%ADa%20realizar%20una%20consulta" target="_blank">
             <btn className="btn bg-[#FFC637]  font-semibold md:text-xl">
               Agendar Cita <MdArrowOutward />
             </btn>
             </a>
-            <a href="https://maps.app.goo.gl/BVu57wNRpgDragLt6">
+            <a href="https://maps.app.goo.gl/BVu57wNRpgDragLt6" target="_blank">
             <btn className="btn btn-outline text-white font-semibold md:text-xl">
               Ver Ubicación <MdArrowOutward />
             </btn>

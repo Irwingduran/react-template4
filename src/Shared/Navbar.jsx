@@ -20,7 +20,7 @@ const Navbar = () => {
   const navLink = (
     <>
       <li>
-        <a href="/#home">Inicio</a>
+        <a href="/">Inicio</a>
       </li>
       <li>
         <a href="/#service">Servicio</a>
@@ -61,7 +61,7 @@ const Navbar = () => {
             {navLink}
           </ul>
         </div>
-        <a className="btn text-lg btn-ghost">
+        <a href="/" className="btn text-lg btn-ghost">
           <h1>Dr. Omar Espinosa Gonzalez</h1>
         </a>
       </div>

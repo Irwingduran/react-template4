@@ -11,11 +11,10 @@ const insurancePartners = [
   { id: 7, name: 'METLIFE', logo: '/icon/METLIFE.jpg' },
   { id: 8, name: 'ALLIANZ', logo: '/icon/ALLIANZ.jpg' },
   { id: 9, name: 'ZURICH', logo: '/icon/ZURICH.jpg' },
-  { id: 10, name: 'BXT', logo: '/icon/BXT.jpg' },
   { id: 11, name: 'FIRA', logo: '/icon/FIRA.jpg' },
   { id: 12, name: 'QUALITAS', logo: '/icon/QUALITAS.jpg' },
   { id: 13, name: 'SURA', logo: '/icon/SURA.jpg' },
-  { id: 14, name: 'BANCOMIN', logo: '/icon/BANCOMIN.jpg' },
+  { id: 14, name: 'BTX', logo: '/icon/BANCOMIN.jpg' },
 ];
 
 const Partners = () => {

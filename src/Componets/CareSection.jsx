@@ -14,9 +14,9 @@ const CareSection = () => {
       </div>
 
       <div className="shadow-xl p-3 lg:p-6 rounded-3xl lg:space-y-4 lg:col-start-1 lg:col-end-3 border lg:row-start-1 lg:row-end-12">
-        <h1 className="text-2xl lg:text-5xl font-bold text-[#020043]">2,000</h1>
+        <h1 className="text-2xl lg:text-5xl font-bold text-[#020043]">+2,000</h1>
         <p className="text-[#020043]">
-          Total de <br /> cirugías <br /> realizadas.
+        Cirugías <br /> realizadas
         </p>
         <div className="flex justify-end items-end">
           <img className="w-96 lg:24" src={circleImg} alt="" />
