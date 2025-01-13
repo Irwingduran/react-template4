@@ -71,7 +71,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="https://api.whatsapp.com/send/?phone=5212221843622&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" className="btn text-[#020043] btn-outline font-semibold md:text-xl">
+        <a href="https://api.whatsapp.com/send/?phone=5212221843622&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" className="btn text-[#020043] btn-outline font-semibold md:text-xl" target="_blank">
           Agendar Cita <MdArrowOutward />
         </a>
       </div>
