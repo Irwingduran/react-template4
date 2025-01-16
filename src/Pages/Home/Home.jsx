@@ -29,7 +29,7 @@ const Home = () => {
       <div id="contact">
       <Contact></Contact>
       </div>
-      <div>
+      <div id="location">
       <Discount></Discount>
       </div>
       <Partners></Partners>
