@@ -22,16 +22,16 @@ const Home = () => {
       <div id="service">  
       <Service></Service>
       </div>
+      <div id="location">
       <MapComponent></MapComponent>
+      </div>
       <VideoComponent></VideoComponent>
       <Testimonial></Testimonial>
       <Faq></Faq>
       <div id="contact">
       <Contact></Contact>
       </div>
-      <div id="location">
       <Discount></Discount>
-      </div>
       <Partners></Partners>
     </div>
   );
