@@ -15,7 +15,7 @@ const Service = () => {
         Servicios de alta calidad y atención personalizada para<br /> cuidar de tu salud y bienestar.
         </h1>
         <div className="mt-6 lg:mt-12">
-          <a href="https://api.whatsapp.com/send/?phone=5212221843622&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0">
+          <a href="https://api.whatsapp.com/send/?phone=5212221843622&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank">
             <btn className="btn bg-[#FFC637] font-semibold text-xl">
               Agendar Cita<MdArrowOutward />
             </btn>
