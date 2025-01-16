@@ -24,7 +24,7 @@ const Discount = () => {
               Agendar Cita <MdArrowOutward />
             </btn>
             </a>
-            <a href="https://maps.app.goo.gl/BVu57wNRpgDragLt6" target="_blank">
+            <a href="#location">
             <btn className="btn btn-outline text-white font-semibold md:text-xl">
               Ver Ubicación <MdArrowOutward />
             </btn>
