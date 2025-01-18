@@ -1,5 +1,6 @@
 import { MdArrowOutward } from "react-icons/md";
 import { useState, useEffect } from "react";
+import ScrollToHash from "../utils/ScrollToHash";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,6 +37,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbar bg-base-100 ${isScrolled ? "fixed top-0 left-0 w-full shadow-md transition-all z-50" : ""}`}>
+      <ScrollToHash/>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
