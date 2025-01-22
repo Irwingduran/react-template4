@@ -19,10 +19,10 @@ const Testimonial = () => {
       <div className="flex flex-col lg:flex-row gap-6 mt-10 lg:mt-16">
         <div className="bg-[#FFFFF5] shadow-xl rounded-3xl border lg:row-start-6 lg:row-end-12 p-5 lg:col-start-7 lg:col-end-9 space-y-3">
           <h1 className="text-2xl lg:text-3xl font-bold text-[#020043]">
-          Experiencia y compasión combinadas
+            Experiencia y compasión combinadas
           </h1>
           <p className="text-[#020043] font-medium">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sequi quasi earum iusto dolores porro consequuntur tempore omnis! Repellendus sit reprehenderit dolorem fuga, illo distinctio expedita vitae assumenda delectus accusamus!
+            Desde la primera consulta, el Dr. fue muy claro y empático al explicar mi condición. Después de la cirugía, mi calidad de vida ha mejorado significativamente. ¡Lo recomiendo ampliamente!
           </p>
           <div className="flex gap-4">
             <div>
@@ -48,7 +48,7 @@ const Testimonial = () => {
             Mi experiencia fue genial
           </h1>
           <p className="text-[#020043] font-medium">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, iusto excepturi suscipit est sequi provident fugiat voluptatibus ipsum labore quaerat exercitationem asperiores numquam. Aliquid excepturi cum praesentium ut sunt necessitatibus.
+            El procedimiento fue rápido y el equipo del Dr. siempre estuvo pendiente de mi recuperación. Ahora puedo disfrutar de mi día a día sin molestias. ¡Gracias!
           </p>
           <div className="flex gap-4">
             <div>
@@ -56,8 +56,7 @@ const Testimonial = () => {
             </div>
             <div>
               <h5 className="text-[#020043]">
-                <span className="font-bold text-[#020043]">Miguel R, </span>{" "}
-                Junio 2024
+                <span className="font-bold text-[#020043]">Miguel R, </span> Junio 2024
               </h5>
               <div className="flex gap-1">
                 <FaStar className="text-[#FFE03D]" />
@@ -75,7 +74,7 @@ const Testimonial = () => {
             El Dr. fue muy profesional durante todo el proceso
           </h1>
           <p className="text-[#020043] font-medium">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quo dolores aliquam optio. Voluptatibus nobis, provident sequi id voluptates pariatur incidunt dolore, nisi esse nam aspernatur necessitatibus amet impedit harum.
+            Su conocimiento y experiencia me dieron la confianza que necesitaba para realizarme la cirugía. Todo salió perfecto y el seguimiento postoperatorio fue excepcional.
           </p>
           <div className="flex gap-4">
             <div>
@@ -83,8 +82,7 @@ const Testimonial = () => {
             </div>
             <div>
               <h5 className="text-[#020043]">
-                <span className="font-bold text-[#020043]">David S, </span>{" "}
-                Septiembre 2024
+                <span className="font-bold text-[#020043]">David S, </span> Septiembre 2024
               </h5>
               <div className="flex gap-1">
                 <FaStar className="text-[#FFE03D]" />

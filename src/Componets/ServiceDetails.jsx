@@ -21,9 +21,9 @@ const ServiceDetails = () => {
       {/* Image */}
       <div className="hidden lg:block w-1/3">
         <img 
-          src="/path-to-your-image.jpg" 
+          src="/Media/img3.jpg" 
           alt="Descripción de la imagen" 
-          className="w-full h-auto object-cover"
+          className="w-full min-h-min object-cover"
         />
       </div>
     </div>
