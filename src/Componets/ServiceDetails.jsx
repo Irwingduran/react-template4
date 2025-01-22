@@ -6,7 +6,6 @@ const ServiceDetails = () => {
     <div className="w-full bg-gray-50">
       {/* Hero Section */}
       <div className="relative h-[400px] bg-[#020043] w-full overflow-hidden">
-        
         <div className="absolute inset-0 bg- flex items-center">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-2xl text-white">
@@ -37,11 +36,16 @@ const ServiceDetails = () => {
             </p>
           </div>
           <div className="rounded-xl overflow-hidden shadow-lg">
-            <img 
-              src="/Media/service1.jpeg" 
-              alt="Aquí va imagen del servcio o similar" 
-              className="w-full h-full object-cover"
-            />
+            <iframe 
+              src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbariatrapue%2Fvideos%2F542267478727100%2F&show_text=false&width=267&t=0" 
+              width="267" 
+              height="476" 
+              style={{ border: 'none', overflow: 'hidden' }} 
+              scrolling="no" 
+              frameBorder="0" 
+              allowFullScreen={true} 
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
           </div>
         </div>
 
