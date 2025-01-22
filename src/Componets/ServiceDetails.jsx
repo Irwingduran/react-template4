@@ -4,21 +4,32 @@ import { FaCheckCircle, FaUserMd, FaHospital, FaClipboardList, FaExclamationTria
 const ServiceDetails = () => {
   return (
     <div className="w-full bg-gray-50">
-      {/* Hero Section */}
-      <div className="relative h-[400px] bg-[#020043] w-full overflow-hidden">
-        <div className="absolute inset-0 flex items-center">
-          <div className="container mx-auto px-4 lg:px-8">
-            <div className="max-w-2xl text-white">
-              <h1 className="text-4xl lg:text-5xl font-bold mb-4">
-                Plastia Inguinal Laparoscópica
-              </h1>
-              <p className="text-lg lg:text-xl">
-                Procedimiento quirúrgico mínimamente invasivo para reparar hernias inguinales de manera eficiente y segura.
-              </p>
-            </div>
-          </div>
-        </div>
+     {/* Hero Section */}
+  <div className="relative h-[400px] bg-[#020043] w-full overflow-hidden">
+  <div className="absolute inset-0 flex items-center">
+    <div className="container mx-auto px-4 lg:px-8 flex justify-between items-center">
+      {/* Text Content */}
+      <div className="max-w-2xl text-white">
+        <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+          Plastia Inguinal Laparoscópica
+        </h1>
+        <p className="text-lg lg:text-xl">
+          Procedimiento quirúrgico mínimamente invasivo para reparar hernias inguinales de manera eficiente y segura.
+        </p>
       </div>
+      
+      {/* Image */}
+      <div className="hidden lg:block w-1/3">
+        <img 
+          src="/path-to-your-image.jpg" 
+          alt="Descripción de la imagen" 
+          className="w-full h-auto object-cover"
+        />
+      </div>
+    </div>
+    </div>
+  </div>
+
 
       {/* Main Content */}
       <div className="container mx-auto px-4 lg:px-8 py-12">
