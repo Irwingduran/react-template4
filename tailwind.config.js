@@ -7,7 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio: {
+        '9/16': [9, 16], // Custom ratio for vertical videos
+      },
+    },
   },
   plugins: [
     daisyui, // Usando `import` para cargar DaisyUI
