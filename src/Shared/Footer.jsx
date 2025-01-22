@@ -61,7 +61,6 @@ const Footer = () => {
                   className="text-white"
                   rel="noopener noreferrer"
                   href="/#location"
-                  target="_blank"
                 >
                   Ubicación
                 </a>
