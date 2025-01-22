@@ -60,7 +60,7 @@ const Footer = () => {
                 <a
                   className="text-white"
                   rel="noopener noreferrer"
-                  href="https://maps.app.goo.gl/BVu57wNRpgDragLt6"
+                  href="/#location"
                   target="_blank"
                 >
                   Ubicación
