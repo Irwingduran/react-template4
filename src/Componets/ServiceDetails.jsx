@@ -35,17 +35,26 @@ const ServiceDetails = () => {
               Se utiliza una malla quirúrgica para reforzar el área debilitada de la pared abdominal, minimizando la posibilidad de recurrencia.
             </p>
           </div>
-          <div className="relative rounded-xl overflow-hidden shadow-lg aspect-w-9 aspect-h-16">
-           <iframe 
-            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbariatrapue%2Fvideos%2F542267478727100%2F&show_text=false&width=267&t=0" 
-            className="w-full h-full border-none" 
-            scrolling="no" 
-            frameBorder="0" 
-            allowFullScreen 
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            ></iframe>
-         </div>
+          <div className="flex justify-center items-center">
+            <div className="relative w-[267px] h-[476px] rounded-xl overflow-hidden shadow-lg bg-white">
+              <div className="absolute inset-0">
+                <iframe 
+                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fbariatrapue%2Fvideos%2F542267478727100%2F&show_text=false&width=267&t=0" 
+                  className="w-full h-full"
+                  style={{
+                    border: 'none',
+                    overflow: 'hidden',
+                  }}
+                  scrolling="no" 
+                  frameBorder="0" 
+                  allowFullScreen={true}
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+
         {/* Benefits Section */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-[#020043] text-center mb-10">
